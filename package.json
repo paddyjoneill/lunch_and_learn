@@ -1,0 +1,37 @@
+{
+  "name": "supabase-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.30.0",
+    "@supabase/supabase-js": "^1.35.3",
+    "cookie": "^0.5.0",
+    "fireworks": "^2.2.7",
+    "micro": "^9.3.4",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "stripe": "^9.5.0"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "@types/micro": "^7.3.7",
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.4",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.14",
+    "prettier": "2.6.2",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.6.4"
+  }
+}

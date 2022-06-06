@@ -1,0 +1,45 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 40px);
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  padding: 20px;
+}
+
+.signin-container > input {
+  margin: 12px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+
+.subs-container {
+  margin: 0 20px 0 20px;
+}
+
+.account-container {
+  margin: 0 20px 0 20px;
+}
+
+.signup-button-container {
+  width: 200px;
+  margin: 20px;
+}
